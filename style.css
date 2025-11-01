@@ -24,7 +24,7 @@ canvas#stars {
 
 body {
   height: 100vh;
-  background-image: linear-gradient( black , rgb(15, 57, 59) 100%);
+  background-image: linear-gradient( black , red);
   color: white;
   
   font-family: "Underdog", system-ui;
@@ -689,6 +689,7 @@ form button:hover {
     margin: 0 10px;
   }
 }
+
 
 
 
