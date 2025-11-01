@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>personal portofolio</title>
+  <!-- داخل <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+    <body>
+
+     <!-- start container -->
+     <div class="container">
+    <!-- start nav -->
+        <nav >
+          <div class="nav-content">
+            <div class="logo"><a href="#">khaled</a></div>
+
+             <ul>
+            <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+            <li><a href="#projects"><i class="fa fa-briefcase"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+          </ul>
+            <div class="hamburger-menu" id="hamburger-menu">
+              <i class="fa fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+        <!-- end nav -->
+
+        <!-- Sidebar Menu -->
+        <div id="sidebar" class="sidebar">
+          <ul>
+            <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+            <li><a href="#projects"><i class="fa fa-briefcase"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+          </ul>
+        </div>
+
+
+        <!-- start content -->
+            <div class="content" id="home">
+              <div class="text">
+                <h2>Hello I am</h2>
+                <h1>Khaled Mohamed</h1>
+                <p>I’m a Front-End Developer passionate about crafting beautiful, responsive, and user-friendly web interfaces.</p>
+                <p class="p2">I specialize in turning creative designs into fully functional websites using HTML, CSS, and JavaScript.</p>
+              </div>
+
+              <div class="content-img">
+                  <div class="image-wrapper">
+                    <img src="imges/me-removebg-preview.png" alt="My Photo">
+                  </div>
+                </div>
+            </div>
+          <!-- end content -->
+            
+            <!-- start about -->
+          <div class="about" id="about">
+              <div class="about-content">
+                  <div class="about-text">
+                      <h2>About me</h2>
+                       <p>
+                         I'm <strong>Khaled Mohamed</strong>, a passionate Front-End Developer who loves transforming ideas into stunning digital experiences. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building modern, responsive websites that are not only visually appealing but also intuitive and user-friendly.
+                       </p>
+                       <p>
+                         My journey into web development started with curiosity and grew into a full-fledged passion. I constantly seek to learn new technologies, improve my skills, and take on exciting challenges that push my creativity and problem-solving abilities.
+                       </p>
+                  </div>
+
+                  <div class="about-img">
+                    <img src="imges/me-removebg-preview.png" alt="about-img">
+                  </div>
+              </div>
+          </div>
+          <!-- end about -->
+
+          
+
+
+      <!-- start proj -->
+      <div class="proj" id="projects">
+        <div class="proj-content">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            
+            <!-- Project 1 -->
+            <div class="project-card">
+              <img src="imges/srat.PNG" alt="Starbucks Landing Page">
+              <h3><i class="fa fa-coffee"></i> Starbucks Landing Page</h3>
+              <p>A stylish and responsive landing page inspired by Starbucks, built with HTML, CSS, and modern UI effects.</p>
+              <a href="starbucks/index.htm" target="_blank"><i class="fa fa-mug-hot"></i> View Project</a>
+            </div>
+
+
+            <!-- Project 2 -->
+            <div class="project-card">
+              <img src="imges/esa.PNG" alt="Model Showcase Page">
+              <h3><i class="fa fa-camera-retro"></i> Model Portfolio</h3>
+              <p>A modern and responsive model showcase page with smooth animations and a sleek design.</p>
+              <a href="esa2/index.html" target="_blank"> <i class="fa fa-eye"></i>View Project</a>
+            </div>
+
+
+
+            <!-- Project 3 -->
+            <div class="project-card">
+              <img src="imges/faramawy.PNG" alt="Education Platform">
+              <h3><i class="fa fa-graduation-cap"></i> Education Platform</h3>
+              <p>A modern and user-friendly educational platform designed to help students learn, practice, and track their progress through engaging lessons and quizzes.</p>
+              <a href="Test EL-Faramawy 2/index.html" target="_blank"><i class="fa fa-eye"></i> View Project</a>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+              <img src="imges/to do list.PNG" alt="To-Do List App">
+              <h3><i class="fa fa-tasks"></i> To-Do List App</h3>
+              <p>An interactive and animated to-do list for organizing daily tasks using HTML, CSS, and JavaScript.</p>
+              <a href="todo list/index.html" target="_blank"><i class="fa fa-check-circle"></i> View Project</a>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+              <img src="imges/food.PNG" alt="Restaurant Landing Page">
+              <h3><i class="fa fa-utensils"></i> Restaurant Landing Page</h3>
+              <p>A modern and elegant landing page for a restaurant with responsive layout, delicious imagery, and smooth user experience.</p>
+              <a href="Healthy Food/index.html" target="_blank"><i class="fa fa-eye"></i> View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end proj -->
+
+        <!-- start contact -->
+      <section id="contact">
+        <h2 >Contact Us</h2>
+          <div class="contact-content">
+            <form >
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+              <label for="email">Phone:</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your  phone number" required maxlength="11" minlength="11">
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+
+              <button type="button" id="sendBtn">Send Message</button>
+
+            </form>
+
+            <div class="contact-info">
+              <p><i class="fas fa-phone-alt"></i> <strong>Phone:</strong> +20 1202236396</p>
+              <p><i class="fas fa-envelope"></i> <strong>Email:</strong> khaled36363@example.com</p>
+              <p><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> El-Garbia / Egypt</p>
+            </div>
+
+          </div>
+      </section>
+      <!-- end contact -->
+
+   
+
+    <!-- start footer -->
+      <footer id="footer">
+        <div class="footer-icons">
+          <a href="https://wa.me/201202236396" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://instagram.com/khaled36353" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com/KhaledMohamed" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+
+         <div class="footer-copy">
+            <p>© 2025 Khaled. All rights reserved.</p>
+        </div>
+      </footer>
+
+    <!-- end footer -->
+
+
+
+
+
+     </div>
+     <!-- end container -->
+      
+
+        <canvas id="stars"></canvas>
+
+        <script src="main.js"></script>
+
+    <script>
+          document.getElementById('sendBtn').addEventListener('click', function() {
+          const name = document.getElementById('name').value.trim();
+          const phone = document.getElementById('phone').value.trim();
+          const message = document.getElementById('message').value.trim();
+
+          if(!name || !phone || !message) {
+            alert("Please fill all fields.");
+            return;
+          }
+
+          const whatsappNumber = '201202236396';
+          const text = `Name: ${name}\nPhone: ${phone}\nMessage: ${message}`;
+          const whatsappText = encodeURIComponent(text);
+          const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappText}`;
+
+          window.open(whatsappURL, '_blank');
+
+          // Optionally clear form fields
+          document.getElementById('name').value = '';
+          document.getElementById('phone').value = '';
+          document.getElementById('message').value = '';
+        });
+
+
+    </script>
+
+    </body>
+</html>
